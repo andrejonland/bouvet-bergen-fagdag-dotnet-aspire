@@ -131,4 +131,4 @@ The dashboard can now visualize connections between resources even when they are
 - Parameter visualization for URLs and connection strings
 - External service mapping between your services and external dependencies
 
-**Next**: [Module #4: Service Discovery](./4-servicediscovery.md)
+**Next**: [Module #4: Service Discovery](./04-servicediscovery.md)
