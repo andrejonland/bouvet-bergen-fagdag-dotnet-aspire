@@ -117,7 +117,7 @@ This feature bridges the gap between your Aspire-managed services and the broade
 Now that we've defined the external weather API service in our AppHost, we need to update the API project to use service discovery to connect to it. The `Api` project already has an `NwsManager` class that makes HTTP requests to the National Weather Service.
 
 1. Open the `NwsManager.cs` file in the `Api/Data` folder.
-1. Locate the `AddNwsManager` extension method around line 130.
+1. Locate the `AddNwsManager` extension method around line 74.
 1. Update that the `HttpClient` to use `https://weather-api/` as the base address instead of api.weather.gov:
 
     ```csharp
