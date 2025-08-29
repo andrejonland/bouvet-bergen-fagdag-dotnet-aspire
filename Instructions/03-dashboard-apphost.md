@@ -45,6 +45,8 @@ Before continuing, consider some common terminology used in .NET Aspire:
 
 ## Orchestrate the Application
 
+1. In the `AppHost` project, rename the `AppHost.cs` file to `Program.cs` as this is more convenient and follows best practice.
+
 1. In the `AppHost` project, update the `Program.cs` file, adding the following line immediately after the `var builder = DistributedApplication.CreateBuilder(args);` line:
 
     ```csharp
